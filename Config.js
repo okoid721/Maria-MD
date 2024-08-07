@@ -3,20 +3,20 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
-global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.ownernumber = [ process.env.OWNER_NUMBER || "2349066587690"],
+global.ownername = process.env.OWNER_NAME || "Coder_dave",
+global.ytname = "YT: king_dave"
+global.socialm = "GitHub: okoid721"
+global.location = "Nigeria"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "BOT",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.stickername = process.env.STICKER || "Coder_dave",
 global.packname = 'Sticker By'
-global.author = process.env.AUTHOR || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
+global.author = process.env.AUTHOR || "Coder_dave",
 //console view/theme
-global.themeemoji = '🧩'
+global.themeemoji = '🎶'
 global.wm = "Ayush botz inc."
 
 //theme link
@@ -26,27 +26,27 @@ global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
 global.prefa = process.env.PREFIX || ".",
 
 //false=disable and true=enable
-global.welcome = process.env.WELCOME || "false", //auto welcome
-global.autoRecording = false //auto recording
+global.welcome = process.env.WELCOME || "ture", //auto welcome
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.autoread_status = true //auto view status/story
 
 
 
 //reply messages
 global.mess = {
-    done: '🍭 *Here you go, darling!* ',
-    prem: '🍭 *My darling, this feature is reserved for premium users only*',
-    admin: '🍭 *My darling, this feature is reserved for admins only*',
-    botAdmin: '🍭 *Darling, this feature can only be used when the bot is a group admin* ',
-    owner: '🍭 *My dearest, this feature is reserved for the owner only*',
-    group: '🍭 *Sweetheart, this feature is exclusively for groups*',
-    private: '🍭 *My love, this feature is exclusively for private chats*',
-    wait: '🍭 *Darling, in process...* ',    
+    done: '🍭 *Here you go, king!* ',
+    prem: '🍭 *Hey, this feature is reserved for premium users only*',
+    admin: '🍭 *Hey, this feature is reserved for admins only*',
+    botAdmin: '🍭 *Hey, this feature can only be used when the bot is a group admin* ',
+    owner: '🍭 *Hey, this feature is reserved for the owner only*',
+    group: '🍭 *Hey, this feature is exclusively for groups*',
+    private: '🍭 *Hey, this feature is exclusively for private chats*',
+    wait: '🍭 *Hey, in process...* ',    
     error: '🍭 *Oh darling, there seems to be an error!*',
 }
 
